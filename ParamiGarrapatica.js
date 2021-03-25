@@ -14,8 +14,8 @@ var words = [
 const dom = {
     love: document.querySelector('.love')
 }
-console.log(dom.love)
-dom.love.style.setProperty('--particles', words.length)
+console.log(this.dom.love)
+this.dom.love.style.setProperty('--particles', words.length)
 
 words.forEach((word, i) => {
     let span = document.createElement('span')
