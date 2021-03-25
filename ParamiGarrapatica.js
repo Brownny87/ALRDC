@@ -1,4 +1,4 @@
-const words = [
+var words = [
     'ALRDC','Princesa', 'Love', 'Eres Increible', 'Liebe', 'Amore',
     'Amor', 'Me Encantas', 'ความรัก', 'Aşk', 'Tình yêu', 'ליבע','Amour', 'Tu Sonrisa', 'Amanecer a tu Lado',
     'Hacerte Cosquillas', 'Tu Fortaleza', 'Hacerte el Amor', 'Tu Aroma', 'Tu Sensualidad',
