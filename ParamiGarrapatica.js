@@ -11,10 +11,10 @@ var words = [
     'Nuestras Aventuras', 'Nuestros Viajes', 'aroha', 'Amarte', 'Hacerte Sonreir', 
     'Nuestras Diferencias que nos Unen', 'Super Equipo Parchero', 'Siempre Juntos', 'Comunicacion', 'Confianza', 
     'Lealtad', 'ярату', 'Amabilidad', 'Alegria', 'uthando'];
-const dom = {
+var dom = {
     love: document.querySelector('.love')
 }
-console.log(this.dom.love)
+console.log(dom.love)
 this.dom.love.style.setProperty('--particles', words.length)
 
 words.forEach((word, i) => {
